@@ -11,6 +11,183 @@
     <title>Jashan Kumar</title>
 </head>
 <body>
-    
+
+    <h1 class="hidden"> Portfolio</h1>
+
+    <header class="grid-con">
+        <nav class="col-span-full mobile-navbar">
+            <h2 class="hidden">Header</h2>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- <div class="nav-menu col-span-full">
+                <a href="index.html" ><img width="100px" id="logo" src="images/Main-logo.svg" alt="main-logo"></a>
+                <ul>
+                    <li class="nav-item">
+                        <a data-link="event" class="nav-link">EVENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-link="projects" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-link="developers" class="nav-link">DEVELOPERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-link="portfolios" class="nav-link">PORTFOLIOS</a>
+                    </li>
+                </ul>
+                </div>
+        </nav> -->
+    </header>
+
+
+
+    <!--SECTION 1 TITLE -->
+    <section class="grid-con section1">
+        <div class="col-span-full">
+            <h2>Front-End Dev And</h2>
+            <h2>Creative Designer</h2>
+            <p>HI! I’m Jashan Kumar, a front-end developer and Creative Designer specializing in web development, 3D motion graphics, and multimedia design. Explore my projects to
+                see how I merge creativity with clean code
+                to create engaging, functional websites!</p>
+        </div>
+
+        <div class="col-span-full pfp">
+            <img  src="images/pfp-jass-mobile.png" alt="Portfolio Image">
+            <img src="images/pfp-BG.svg" alt="pfp-Background">
+            
+        </div>
+    </section>
+
+    <!--SECTION 2  Video Section  -->
+
+    <section id="player-container" class="section-video section3">
+        <h2 class="hidden"> 
+            section video reel
+        </h2>
+        <h2 class="hidden">Video</h2>
+        <div class="big-ball-v"></div>
+        <div class="big-square-glass-v"></div>
+        <video class="player" controls preload="metadata" poster="images/video-bg.png">
+            <source src="video/video.mp4" type="video/mp4">
+            <source src="video/video.webm" type="video/webm">
+            <p>Ooops, something went wrong. You may be using an outdated browser or have javascript disabled.</p>
+        </video>
+    </section>
+
+
+
+    <!-- Section3 projects -->
+
+        <section class="section3 grid-con">
+
+            <h3 class="col-span-full">
+                Here are a few of my recent projects that demonstrate my range of skills in front-end development, 3D motion graphics, and multimedia design 
+            </h3>
+
+            <div class="projects project1">
+                <img src="images/project1-mobile.png" alt="placeholder-picture">
+            </div>
+            <div class="projects project2"></div>
+            <div class="projects project3"></div>
+            <div class="projects project4"></div>
+            <div class="projects project5"></div>
+            <div class="projects project6"></div>
+
+        </section>
+
+
+        <!-- Section4 About me -->
+
+
+        <section class="section4 grid-con">
+
+            <img src="images/pfp-mini-mobile.png" alt="profile-picture">
+
+            <h2>About Me</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+            <div class="contact-btn">
+                <a href="#">CONTACT ME</a>
+            </div>
+
+        </section>
+
+
+
+        <!-- section 5 skills -->
+
+
+        <section class="section5">
+            <h2>My Skill</h2>
+
+
+            <div class="skills">
+
+                <div class="sets">  <img src="images/js-icon.png" alt="" class="icons">
+                    <img src="images/git-icon.png" alt="" class="icons"></div>
+
+                <div class="sets"> <img src="images/vue-icon.png" alt="" class="icons">
+                    <img src="images/sass-icon.png" alt="" class="icons"></div>
+
+                <div class="sets"> <img src="images/Adobe-icon.png" alt="" class="icons">
+                    <img src="images/ae-icon.png" alt="" class="icons">
+                  </div>
+                 <div class="sets"><img src="images/figma-icon.png" alt="" class="icons">
+                    <img src="images/c4d-icon.png" alt="" class="icons"></div>
+
+                
+            </div>
+        </section>
+        
+        <!-- Section 6 Contact Form -->
+
+        <section class="section6 grid-con">
+
+            <div id="contact-hero-address" class="col-span-full l-col-start-2 l-col-end-6">          
+                <h3>Couples Resort (Inc.)</h3>
+                <p>1198 Osprey Rd, (End of)<br>
+                Minden, Soyers Lake, ON, <br>K0M 2K0</p>
+                <h3 class="hidden">Phone, Fax and Email</h3>
+                <p>Toll Free:+1 877 201-1156<br>
+                    FAX:+1 613 638 2217<br>
+                    E-mail: info[at]coupleresort.com </p>         
+            </div>
+            <div id="contact-hero-form" class="col-span-full l-col-start-6 l-col-end-12">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
+                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
+                    <input name="submit" type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="contact-links">
+                <a href="#">dev@jkumar.com</a>
+
+                <div>
+                    <img src="images/behance.svg" alt="behance" class="socials">
+                    <img src="images/linkdin.svg" alt="linkdin" class="socials">
+                    <img src="images/instagram.svg" alt="instagram" class="socials">
+                    <img src="images/dribble.svg" alt="dribble" class="socials">
+                    <img src="images/github.svg" alt="github" class="socials">
+                </div>
+
+                <div>
+                    <p>Back to top</p>
+                    <img src="images/arrow.svg" alt="arrow">
+                </div>
+
+            </div>
+        </footer>
+
+
+
 </body>
 </html>
