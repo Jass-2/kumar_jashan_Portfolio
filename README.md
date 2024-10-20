@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! This project showcases my design and development work, showing the skills and knowledge I've learned during my studies. Here, you can see examples of my projects, creative designs, and technical work. Thanks for stopping by!
 
+![Webpage](images/desktop-ss.png)
+
 ## Installation
 
 There is no installation required.
