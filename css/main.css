@@ -12,7 +12,7 @@ h4,
 h5 {
    margin: 0px;
    padding: 0px;
-   font-family: 'Montserrat';
+   font-family: 'Inter';
 }
 
 .hidden{
@@ -60,6 +60,9 @@ h3,h2,p{
 margin-bottom: 10px;
 }
 
+.section1 h2{
+    padding-left: 15px;
+}
 
 .section1 p{
 position: relative;
@@ -248,7 +251,7 @@ padding-left: 10vh;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 4vh;
-    padding-top: 4vh;
+    padding-top: 6vh;
     
     
 }
@@ -271,29 +274,51 @@ padding-left: 10vh;
 
 /* Section 6 contact form */
 
+.section6{
+    margin-top: 12vh;
+}
+
 #contact-hero-address {
-    margin-bottom: 30px;
+    padding-left: 7vh;
+    border-radius: 10px 10px 0 0;
+    background-color: #ffffff;
 }
 #contact-hero-address h3 {
-    margin-bottom: 25px;
+    color: #000000;
+    margin: 25px 0 25px 0;
 }
 #contact-hero-address p {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 22px;
-}
-#contact-hero-address p {
+    color: #000000; 
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 22px;
 }
 
 /* form-- */
-#contact-hero-form form {
+#contact-hero-form{
     display: flex;
+    border-radius: 0 0 0 0;
+    background-color: #ffffff;
+    align-items: center;
     flex-direction: column;
 }
-#contact-hero-form input, textarea {
+
+#contact-hero-form div form {
+    border-radius: 0 0 10px 10px;
+    /* display: flex; */
+
+}
+
+.form{
+    display: flex;
+    background-color: black;
+    padding: 0 13px 0 39px;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-hero-form .form textarea {
     padding: 22px;
     border: 2px solid #d6d6d6;
     background-color: #f7f7f7;
@@ -307,12 +332,23 @@ padding-left: 10vh;
 }
 
 
-#contact-hero-form input[type="submit"] {
+#contact-hero-form .form input{
+    padding: 22px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: 100%;
+}
+
+#contact-hero-form  input[type="submit"] {
     padding: 12px 28px;
-    background: #9a2018;
+    background: linear-gradient(to top right, #dbc1fe 10%, #baa4eb 55.52%, #181890 100%);
     color: #fff;
     border: none;
     transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
+    width: 45vh;
+    border-radius: 20px;
+    align-self: center;
 }
