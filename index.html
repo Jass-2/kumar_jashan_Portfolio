@@ -17,14 +17,16 @@
     <header class="grid-con">
         <nav class="col-span-full mobile-navbar">
             <h2 class="hidden">Header</h2>
+            <a href="index.html" ><img width="100px" id="logo" src="images/Main-logo.svg" alt="main-logo"></a>
+            
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
 
-            <!-- <div class="nav-menu col-span-full">
-                <a href="index.html" ><img width="100px" id="logo" src="images/Main-logo.svg" alt="main-logo"></a>
+            <div class="nav-menu col-span-full">
+                
                 <ul>
                     <li class="nav-item">
                         <a data-link="event" class="nav-link">EVENT</a>
@@ -40,7 +42,7 @@
                     </li>
                 </ul>
                 </div>
-        </nav> -->
+        </nav>
     </header>
 
 
@@ -50,7 +52,7 @@
         <div class="col-span-full">
             <h2>Front-End Dev And</h2>
             <h2>Creative Designer</h2>
-            <p>HI! I’m Jashan Kumar, a front-end developer and Creative Designer specializing in web development, 3D motion graphics, and multimedia design. Explore my projects to
+            <p>HI! I’m Jashan Kumar, a <b> Front-End Developer</b> and <b>Creative Designer </b>specializing in web development, 3D motion graphics, and multimedia design. Explore my projects to
                 see how I merge creativity with clean code
                 to create engaging, functional websites!</p>
         </div>
@@ -84,18 +86,23 @@
 
         <section class="section3 grid-con">
 
+            <h2>MY Recent Work</h2>
             <h3 class="col-span-full">
                 Here are a few of my recent projects that demonstrate my range of skills in front-end development, 3D motion graphics, and multimedia design 
             </h3>
 
-            <div class="projects project1">
+            <div class="projects project1 col-span-full">
                 <img src="images/project1-mobile.png" alt="placeholder-picture">
             </div>
-            <div class="projects project2"></div>
-            <div class="projects project3"></div>
-            <div class="projects project4"></div>
-            <div class="projects project5"></div>
-            <div class="projects project6"></div>
+            <div class="projects project2 col-span-full"> <img src="images/project1-mobile.png" alt="placeholder-picture"></div>
+
+            <div class="projects project3 col-span-full"> <img src="images/project1-mobile.png" alt="placeholder-picture"></div>
+
+            <div class="projects project4 col-span-full"> <img src="images/project1-mobile.png" alt="placeholder-picture"></div>
+
+            <div class="projects project5 col-span-full"> <img src="images/project1-mobile.png" alt="placeholder-picture"></div>
+
+            <div class="projects project6 col-span-full"> <img src="images/project1-mobile.png" alt="placeholder-picture"></div>
 
         </section>
 
@@ -166,9 +173,10 @@
 
                 <div class="form">
                 <form action="email.php" method="POST" enctype="text/plain">
-                    <input name="fullName" type="text" placeholder="First & Last Name">
-                    <input name="contactInfo" type="text" required placeholder="Phone number or Email">
-                    <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea></form></div>
+                    <input name="First Name" type="text" placeholder="First Name">
+                    <input name="Last Name" type="text" placeholder="Last Name">
+                    <input name="contactInfo" type="text" required placeholder="Email">
+                    <textarea name="msg" placeholder="Message"></textarea></form></div>
                     <input name="submit" type="submit" value="Send">
                 
             
@@ -187,16 +195,20 @@
                     <img src="images/dribble.svg" alt="dribble" class="socials">
                     <img src="images/github.svg" alt="github" class="socials">
                 </div>
-
-                <div>
-                    <p>Back to top</p>
-                    <img src="images/arrow.svg" alt="arrow">
-                </div>
-
             </div>
+
+
+            <div class="back-to-top">
+                <p>Back to top</p>
+                <img src="images/arrow.svg" alt="arrow">
+            </div>
+            
+
+            
         </footer>
 
 
+        <script src="js/main.js"  ></script>
 
 </body>
 </html>
