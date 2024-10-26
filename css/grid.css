@@ -71,7 +71,7 @@ html {
    padding-right: 15px;
    overflow: hidden;
    grid-template-rows: auto;
-   gap: 20px; 
+   /* gap: 20px;  */
 }
 
 
