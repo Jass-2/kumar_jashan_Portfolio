@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url(../images/body-BG.png) no-repeat;
+    /* background: url(../images/body-BG.png) no-repeat; */
     background: linear-gradient(90deg, #000000, #1F2124);
 
 }
@@ -67,6 +67,7 @@ header{
     height: 30px;
     cursor: pointer;
     margin-right: 10px;
+    transition: transform .6s ease-in-out;
 }
 
 .hamburger .bar {
@@ -74,7 +75,8 @@ header{
     width: 104%;
     background: linear-gradient(#DBC1FE, #181890);
     border-radius: 5px;
-    transition: all 0.3s ease;
+    
+    
 }
 
 /* .hamburger .bar:nth-child(1){
@@ -90,17 +92,19 @@ header{
 
 
 
-.hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+.hamburger.active  {
+    transform:  rotate(180deg);
+    /* transform:  rotate(360deg); */
+    /* transition: transform 2s ease; */
 }
 
-.hamburger.active .bar:nth-child(2) {
+/* .hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
 
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
-}
+} */
 
 .nav-menu {
     position: absolute;
@@ -269,6 +273,14 @@ video{
     width: 100% ;
 }
 
+
+.section3 div img:nth-child(1){
+    display: block;
+}
+
+.section3 div img:nth-child(2){
+    display: none;
+}
 
 /* projects cards */
 
@@ -477,7 +489,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 60px 15px 7px 15px;
+    padding: 60px 15px 20px 15px;
     
 }
 
@@ -497,4 +509,64 @@ footer{
 
 .back-to-top p{
     white-space: nowrap;
+}
+
+
+
+
+/* 768px screen */
+
+@media screen and (min-width: 768px) {
+
+
+    /* header{
+        padding: 0 !important;
+        margin: 0;
+        background-size: cover;
+        background-position: calc(100% - 30px) 40px; 
+    
+    } */
+    .mobile-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 20px;
+        background-color: transparent;
+        position: absolute;
+        /* gap: 39vh; */
+        left: 0;
+        right: 0;
+    }
+    
+    
+    #logo {
+        width: 50px; 
+        margin-left: 10px;
+    }
+    
+    .hamburger, .nav-menu {
+        display: none;
+        
+    }
+    
+
+
+
+
+
+
+    /* section3 */
+    .section3 div img:nth-child(1){
+        display: none;
+    }
+    
+    .section3 div img:nth-child(2){
+        display: block;
+    }
+
+}
+
+/* 1200px screen */
+@media screen and (min-width: 1200px) {
+
 }
