@@ -5,25 +5,26 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 60px 15px 20px 15px;
-    
+    align-items: flex-end;
+
 }
 
 .contact-links div{
-    padding-top: 16px;
+padding-top: 16px;
 }
 
 .back-to-top {
-    display: flex;
-    align-items: flex-end;
+display: flex;
+align-items: flex-end;
 }
 
 .back-to-top img {
-    height: 40%;
-    margin-left: 8px;
+width: 14px;
+margin-left: 8px;
 }
 
 .back-to-top p{
-    white-space: nowrap;
+white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {
