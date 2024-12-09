@@ -1,0 +1,161 @@
+.case-body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0;
+    background-image: url(../images/mobile-bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    width: 50px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.banner-image-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+   
+        border-radius: 10px;
+    
+    object-fit: contain;
+}
+.banner-content {
+    text-align: center;
+    max-width: 800px;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.case-study {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.case-study h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.case-study p {
+    margin-bottom: 1.5rem;
+    color: #ccc;
+}
+
+.gallery {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+  
+        .banner-image {
+            height: 40vw;
+            width: auto;
+            border-radius: 20px;
+        }
+  
+    
+    .case-body {
+        background-image: url(../images/tab-bg2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .case-study h2 {
+        font-size: 1.5rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .case-body {
+        background-image: url(../images/desk-bg2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+        
+}
